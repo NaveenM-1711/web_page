@@ -1,0 +1,42 @@
+.form a.text{
+    color: #4070f4;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #40f44c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.button input:hover{
+    background-color: #26f23e;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: right;
+}
